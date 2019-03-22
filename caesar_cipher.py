@@ -15,16 +15,12 @@ def decrypt(ciphertext,key):
 		return result
 
 if __name__	==	'__main__':
-		cipher="""
-tm bcsv qolfp
-f dmvd xuhm exl tgak
-hlrkiv sydg hxm
-qiswzzwf qrf oqdueqe
-dpae resd wndo
-liva bu vgtokx sjzk
-hmb rqch fqwbg
-fmmft seront sntsdr pmsecq
+		cipher=""" 
+text
+to
+decode
 """
+#the """ is docstring
 		i	=	1
 		debut	=	""
 		fin	=	""
