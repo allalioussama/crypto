@@ -25,21 +25,21 @@ liva bu vgtokx sjzk
 hmb rqch fqwbg
 fmmft seront sntsdr pmsecq
 """
-		i			=	1
+		i	=	1
 		debut	=	""
-		fin		=	""
+		fin	=	""
 		output=	""
 		for ligne in cipher.splitlines():
 				line=""
 				for mot in ligne.split():
 						output	+=	decrypt(mot,i)
-						line	 	+=	decrypt(mot,i)
+						line	+=	decrypt(mot,i)
 						i       += 1
 						output	+=" "
 				output	+=	"\n"
 				if  line != "":
 						debut	+=	line[0]
-						fin		+=	line[-1]
+						fin	+=	line[-1]
 
 print "cipherText :"+cipher
 print "original Text"+output
